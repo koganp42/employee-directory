@@ -9,13 +9,14 @@ function Table(props) {
         <tr>
           <th>Image</th>
           <th>Name</th>
+          <th>Location</th>
           <th>Phone</th>
           <th>Email</th>
-          <th>DOB</th>
+          <th>Age</th>
         </tr>
       </thead>
       <tbody>
-          {props.users.map(user => <TableRow user={user} key={user.email}/>)}   
+          {props.users.map(user => <TableRow user={user} key={user.email}/>)}  
       </tbody>
     </table>
   );
