@@ -39,6 +39,7 @@ function Home() {
   }
 
   const handleSortSelect = event => {
+    event.preventDefault();
     const selection = event.target.value;
     console.log(users);
     if (selection === "Youngest to Oldest"){
@@ -53,10 +54,11 @@ function Home() {
         }
         return comparison;
         }
-
-      let sortedUsers = users.sort(compare);
+      
+      let sortedUsers = users.slice(0).sort(compare);
       setUsers(sortedUsers);
       console.log(users);
+
     } else if (selection === "Oldest to Youngest"){
       function compare(a, b) {
         const ageA = a.dob.age;
@@ -70,7 +72,8 @@ function Home() {
         return comparison;
         }
 
-      let sortedUsers = users.sort(compare);
+      let sortedUsers = users.slice(0).sort(compare);
+      
       setUsers(sortedUsers);
       console.log(users);
     } 

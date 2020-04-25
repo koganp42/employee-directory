@@ -7,6 +7,16 @@ const SearchForm = props => {
   return (
     <form className="search">
       <div className="form-group">
+      <label htmlFor="ageSort">Sort By Age:</label>
+        <select className="form-control" 
+        id="ageSort" 
+        onChange={props.handleSortSelect}
+        >
+          <option>Select an Option</option>
+          <option>Oldest to Youngest</option>
+          <option>Youngest to Oldest</option>
+        </select>
+        <br />
         <label htmlFor="age">Filter By Age:</label>
         <input
           name="age"
@@ -17,21 +27,22 @@ const SearchForm = props => {
           onChange={props.handleAgeChange}
           ref={ageInput}
         />
-        <button type="submit" onClick={props.handleFormSubmit} className="btn btn-success">
+        <button type="submit" onClick={props.handleFilterFormSubmit} className="btn btn-success">
           Search
         </button>
       </div>
-      <div className="form-group">
+      {/* <div className="form-group">
         <label htmlFor="ageSort">Sort By Age:</label>
         <select className="form-control" 
         id="ageSort" 
-        onChange= {props.handleSortSelect}
+        onChange={props.handleSortSelect}
         >
           <option>Select an Option</option>
           <option>Oldest to Youngest</option>
           <option>Youngest to Oldest</option>
         </select>
-      </div>
+
+      </div> */}
     </form>
   );
 }
