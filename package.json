@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A employee directory app",
   "engines": {
-    "node": "12.16.x"
+    "node": "14.0.0"
   },
   "private": true,
   "dependencies": {
