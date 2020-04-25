@@ -1,6 +1,10 @@
 {
   "name": "employee-directory",
   "version": "0.1.0",
+  "description": "A employee directory app",
+  "engines": {
+    "node": "12.16.x"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
