@@ -1,68 +1,30 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# EmployeeDirectory
+An app that functions as a directory for a companies employees
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+Clone folder onto your own computer by forking the repository and using the "Clone or download" button on github.
 
-### `npm start`
+Install all npm modules using the command "npm install".
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Run the server by calling "npm start" from the root folder. 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Functionality
+The app would allow for a company to track a list of its current employees and view them by a diverse set of criteria. Currently, it allows the user to sort or filter the pre-generated list of employees by their age.
 
-### `npm test`
+## Coding
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Created with react.js and utilizes randomuser API to get fake employee data to populate the directory.  
 
-### `npm run build`
+## Future Improvements
+I would expand the filtering and sorting functions to allow the user to do either on each data point. I would also touch up the UX side to make the app more appealing.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Meta 
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Kogan Pack - koganp42@gmail.com
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Github Repo: 
+[https://github.com/koganp42/employee-directory](https://github.com/koganp42/employee-directory)
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Deployed App: 
+[https://employeedirectory42.herokuapp.com/](https://employeedirectory42.herokuapp.com/)
